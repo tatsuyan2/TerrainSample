@@ -145,29 +145,29 @@
     <Reference Include="UnityStore">
       <HintPath>Assets\Plugins\UnityChannel\UnityStore.dll</HintPath>
     </Reference>
+    <Reference Include="Editor">
+      <HintPath>Assets\Plugins\UnityPurchasing\Bin\Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Purchasing.Common">
+      <HintPath>Assets\Plugins\UnityPurchasing\Bin\Purchasing.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Stores">
+      <HintPath>Assets\Plugins\UnityPurchasing\Bin\Stores.dll</HintPath>
+    </Reference>
+    <Reference Include="Apple">
+      <HintPath>Assets\Plugins\UnityPurchasing\Bin\Apple\Apple.dll</HintPath>
+    </Reference>
     <Reference Include="FacebookStore">
       <HintPath>Assets\Plugins\UnityPurchasing\Bin\Facebook\FacebookStore.dll</HintPath>
     </Reference>
     <Reference Include="Security">
       <HintPath>Assets\Plugins\UnityPurchasing\Bin\Security\live\Security.dll</HintPath>
     </Reference>
-    <Reference Include="Purchasing.Common">
-      <HintPath>Assets\Plugins\UnityPurchasing\Bin\Purchasing.Common.dll</HintPath>
-    </Reference>
-    <Reference Include="Apple">
-      <HintPath>Assets\Plugins\UnityPurchasing\Bin\Apple\Apple.dll</HintPath>
-    </Reference>
-    <Reference Include="Stores">
-      <HintPath>Assets\Plugins\UnityPurchasing\Bin\Stores.dll</HintPath>
-    </Reference>
     <Reference Include="Tizen">
       <HintPath>Assets\Plugins\UnityPurchasing\Bin\Tizen\Tizen.dll</HintPath>
     </Reference>
     <Reference Include="winrt">
       <HintPath>Assets\Plugins\UnityPurchasing\winrt\winrt.dll</HintPath>
-    </Reference>
-    <Reference Include="Editor">
-      <HintPath>Assets\Plugins\UnityPurchasing\Bin\Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -194,7 +194,6 @@
     <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
     <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
     <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
-    <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
     <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
     <None Include="Assets\Standard Assets\Environment\Water\NewSurfaceShader.shader" />
     <None Include="Assets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
