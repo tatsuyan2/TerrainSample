@@ -101,7 +101,7 @@ namespace UnityStandardAssets.Water
 
 				// Set custom culling matrix from the current camera
 				//reflectionCamera.cullingMatrix = cam.projectionMatrix * cam.worldToCameraMatrix;
-				GetComponent<reflectionCamera>().cullingMatrix = cam.projectionMatrix * cam.worldToCameraMatrix;
+				reflectionCamera.main.cullingMatrix = cam.projectionMatrix * cam.worldToCameraMatrix;
 
 				reflectionCamera.cullingMask = ~(1 << 4) & reflectLayers.value; // never render water layer
                 reflectionCamera.targetTexture = m_ReflectionTexture;
